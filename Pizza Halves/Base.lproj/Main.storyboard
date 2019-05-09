@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="HVT-1x-BiM">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Pizza Half Selector View Controller-->
+        <scene sceneID="NKh-kZ-v7x">
+            <objects>
+                <viewController id="HVT-1x-BiM" customClass="PizzaHalfSelectorViewController" customModule="DodoPizza" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ZWk-l9-btv">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <containerView opaque="NO" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" translatesAutoresizingMaskIntoConstraints="NO" id="tDp-Wu-Rwj">
+                                <rect key="frame" x="0.0" y="0.0" width="206.5" height="896"/>
+                                <connections>
+                                    <segue destination="bLa-YV-kMJ" kind="embed" identifier="left" id="KOe-Rd-al5"/>
+                                </connections>
+                            </containerView>
+                            <containerView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="WSi-iN-wHj">
+                                <rect key="frame" x="207.5" y="0.0" width="206.5" height="896"/>
+                                <connections>
+                                    <segue destination="bLa-YV-kMJ" kind="embed" identifier="right" id="bpt-DL-CAc"/>
+                                </connections>
+                            </containerView>
+                            <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="411-aN-h1F" userLabel="Separator">
+                                <rect key="frame" x="206" y="0.0" width="2" height="896"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="2" id="GOi-6Z-dMS"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="WSi-iN-wHj" secondAttribute="bottom" id="6cp-dJ-6T7"/>
+                            <constraint firstItem="tDp-Wu-Rwj" firstAttribute="top" secondItem="ZWk-l9-btv" secondAttribute="top" id="MW7-87-DVT"/>
+                            <constraint firstItem="411-aN-h1F" firstAttribute="top" secondItem="ZWk-l9-btv" secondAttribute="top" id="NDP-zk-cIG"/>
+                            <constraint firstItem="WSi-iN-wHj" firstAttribute="leading" secondItem="tDp-Wu-Rwj" secondAttribute="trailing" constant="1" id="RvD-pN-iD2"/>
+                            <constraint firstItem="WSi-iN-wHj" firstAttribute="top" secondItem="ZWk-l9-btv" secondAttribute="top" id="Y4d-vL-o8f"/>
+                            <constraint firstAttribute="trailing" secondItem="WSi-iN-wHj" secondAttribute="trailing" id="c4w-Ph-RzG"/>
+                            <constraint firstItem="tDp-Wu-Rwj" firstAttribute="width" secondItem="WSi-iN-wHj" secondAttribute="width" id="eYc-0w-BgP"/>
+                            <constraint firstAttribute="bottom" secondItem="tDp-Wu-Rwj" secondAttribute="bottom" id="gT5-RO-1iV"/>
+                            <constraint firstAttribute="bottom" secondItem="411-aN-h1F" secondAttribute="bottom" id="gnL-Se-uOf"/>
+                            <constraint firstItem="411-aN-h1F" firstAttribute="centerX" secondItem="EnC-Ee-rMo" secondAttribute="centerX" id="hXZ-8b-8Zp"/>
+                            <constraint firstItem="tDp-Wu-Rwj" firstAttribute="leading" secondItem="ZWk-l9-btv" secondAttribute="leading" id="pEn-TF-PDb"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="EnC-Ee-rMo"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="cyT-LC-HcY" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="327.536231884058" y="83.705357142857139"/>
+        </scene>
+        <!--Pizza Half Collection Controller-->
+        <scene sceneID="QF1-Yl-IUa">
+            <objects>
+                <collectionViewController id="bLa-YV-kMJ" customClass="PizzaHalfCollectionController" customModule="DodoPizza" customModuleProvider="target" sceneMemberID="viewController">
+                    <collectionView key="view" multipleTouchEnabled="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" contentInsetAdjustmentBehavior="never" dataMode="prototypes" id="Z1Q-YL-3BD">
+                        <rect key="frame" x="0.0" y="0.0" width="206.5" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="dS6-uq-AdX" customClass="PizzaHalfSelectorLayout" customModule="DodoPizza" customModuleProvider="target">
+                            <size key="itemSize" width="50" height="50"/>
+                            <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                            <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                            <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                        </collectionViewFlowLayout>
+                        <cells/>
+                        <connections>
+                            <outlet property="dataSource" destination="bLa-YV-kMJ" id="Lj7-ck-XdJ"/>
+                            <outlet property="delegate" destination="bLa-YV-kMJ" id="I4i-BU-Sam"/>
+                        </connections>
+                    </collectionView>
+                </collectionViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Vcj-hw-Odn" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="980" y="84"/>
+        </scene>
+    </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="KOe-Rd-al5"/>
+    </inferredMetricsTieBreakers>
+</document>

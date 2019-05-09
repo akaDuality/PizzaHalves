@@ -1,0 +1,445 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		133251022263617E00F39383 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 133251012263617E00F39383 /* AppDelegate.swift */; };
+		133251072263617E00F39383 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 133251052263617E00F39383 /* Main.storyboard */; };
+		133251092263617F00F39383 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 133251082263617F00F39383 /* Assets.xcassets */; };
+		1332510C2263617F00F39383 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1332510A2263617F00F39383 /* LaunchScreen.storyboard */; };
+		13325114226362AA00F39383 /* PizzaHalfSelectorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13325113226362AA00F39383 /* PizzaHalfSelectorViewController.swift */; };
+		1332511C2263639800F39383 /* PizzaHalfSelectorLayout+Scale.swift in Sources */ = {isa = PBXBuildFile; fileRef = 133251162263639800F39383 /* PizzaHalfSelectorLayout+Scale.swift */; };
+		1332511D2263639800F39383 /* PizzaHalfSelectorLayout+Headers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 133251172263639800F39383 /* PizzaHalfSelectorLayout+Headers.swift */; };
+		1332511E2263639800F39383 /* TableLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 133251182263639800F39383 /* TableLayout.swift */; };
+		1332511F2263639800F39383 /* PizzaHalfSelectorLayout+Alignment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 133251192263639800F39383 /* PizzaHalfSelectorLayout+Alignment.swift */; };
+		133251202263639800F39383 /* PizzaHalfSelectorLayout+ContentOffset.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1332511A2263639800F39383 /* PizzaHalfSelectorLayout+ContentOffset.swift */; };
+		133251212263639800F39383 /* PizzaHalfSelectorLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1332511B2263639800F39383 /* PizzaHalfSelectorLayout.swift */; };
+		13325123226363AF00F39383 /* PizzaHalfCollectionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13325122226363AF00F39383 /* PizzaHalfCollectionController.swift */; };
+		133251252263644900F39383 /* PizzaHalfViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 133251242263644900F39383 /* PizzaHalfViewModel.swift */; };
+		1332512B226365DA00F39383 /* PizzaHalfCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13325127226365DA00F39383 /* PizzaHalfCell.swift */; };
+		1332512C226365DA00F39383 /* PizzaHalfTitleHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13325128226365DA00F39383 /* PizzaHalfTitleHeader.swift */; };
+		1332512D226365DA00F39383 /* PizzaHalfTitleHeader.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13325129226365DA00F39383 /* PizzaHalfTitleHeader.xib */; };
+		1332512E226365DA00F39383 /* PizzaHalfCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1332512A226365DA00F39383 /* PizzaHalfCell.xib */; };
+		13325130226366BC00F39383 /* UIScrollView+CenterOffset.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1332512F226366BC00F39383 /* UIScrollView+CenterOffset.swift */; };
+		133251342263690300F39383 /* UICollectionView+Runtime.swift in Sources */ = {isa = PBXBuildFile; fileRef = 133251332263690300F39383 /* UICollectionView+Runtime.swift */; };
+		1332513722636C2B00F39383 /* TableLayoutCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1332513622636C2B00F39383 /* TableLayoutCache.swift */; };
+		1332513C2263CA2B00F39383 /* PizzaHalfOrientation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1332513B2263CA2B00F39383 /* PizzaHalfOrientation.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		133250FE2263617E00F39383 /* Pizza Halves.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pizza Halves.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		133251012263617E00F39383 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		133251062263617E00F39383 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		133251082263617F00F39383 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1332510B2263617F00F39383 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1332510D2263617F00F39383 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		13325113226362AA00F39383 /* PizzaHalfSelectorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PizzaHalfSelectorViewController.swift; sourceTree = "<group>"; };
+		133251162263639800F39383 /* PizzaHalfSelectorLayout+Scale.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "PizzaHalfSelectorLayout+Scale.swift"; sourceTree = "<group>"; };
+		133251172263639800F39383 /* PizzaHalfSelectorLayout+Headers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "PizzaHalfSelectorLayout+Headers.swift"; sourceTree = "<group>"; };
+		133251182263639800F39383 /* TableLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableLayout.swift; sourceTree = "<group>"; };
+		133251192263639800F39383 /* PizzaHalfSelectorLayout+Alignment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "PizzaHalfSelectorLayout+Alignment.swift"; sourceTree = "<group>"; };
+		1332511A2263639800F39383 /* PizzaHalfSelectorLayout+ContentOffset.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "PizzaHalfSelectorLayout+ContentOffset.swift"; sourceTree = "<group>"; };
+		1332511B2263639800F39383 /* PizzaHalfSelectorLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PizzaHalfSelectorLayout.swift; sourceTree = "<group>"; };
+		13325122226363AF00F39383 /* PizzaHalfCollectionController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PizzaHalfCollectionController.swift; sourceTree = "<group>"; };
+		133251242263644900F39383 /* PizzaHalfViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PizzaHalfViewModel.swift; sourceTree = "<group>"; };
+		13325127226365DA00F39383 /* PizzaHalfCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PizzaHalfCell.swift; sourceTree = "<group>"; };
+		13325128226365DA00F39383 /* PizzaHalfTitleHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PizzaHalfTitleHeader.swift; sourceTree = "<group>"; };
+		13325129226365DA00F39383 /* PizzaHalfTitleHeader.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PizzaHalfTitleHeader.xib; sourceTree = "<group>"; };
+		1332512A226365DA00F39383 /* PizzaHalfCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PizzaHalfCell.xib; sourceTree = "<group>"; };
+		1332512F226366BC00F39383 /* UIScrollView+CenterOffset.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIScrollView+CenterOffset.swift"; sourceTree = "<group>"; };
+		133251332263690300F39383 /* UICollectionView+Runtime.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UICollectionView+Runtime.swift"; sourceTree = "<group>"; };
+		1332513622636C2B00F39383 /* TableLayoutCache.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableLayoutCache.swift; sourceTree = "<group>"; };
+		1332513B2263CA2B00F39383 /* PizzaHalfOrientation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PizzaHalfOrientation.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		133250FB2263617E00F39383 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		133250F52263617E00F39383 = {
+			isa = PBXGroup;
+			children = (
+				133251002263617E00F39383 /* Pizza Halves */,
+				133250FF2263617E00F39383 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		133250FF2263617E00F39383 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				133250FE2263617E00F39383 /* Pizza Halves.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		133251002263617E00F39383 /* Pizza Halves */ = {
+			isa = PBXGroup;
+			children = (
+				133251052263617E00F39383 /* Main.storyboard */,
+				133251012263617E00F39383 /* AppDelegate.swift */,
+				1332513922636C5200F39383 /* ViewControllers */,
+				1332513822636C4C00F39383 /* Models */,
+				13325126226365DA00F39383 /* Cells */,
+				133251152263639800F39383 /* Layout */,
+				133251352263690800F39383 /* Extensions */,
+				133251082263617F00F39383 /* Assets.xcassets */,
+				1332510A2263617F00F39383 /* LaunchScreen.storyboard */,
+				1332510D2263617F00F39383 /* Info.plist */,
+			);
+			path = "Pizza Halves";
+			sourceTree = "<group>";
+		};
+		133251152263639800F39383 /* Layout */ = {
+			isa = PBXGroup;
+			children = (
+				133251182263639800F39383 /* TableLayout.swift */,
+				1332511B2263639800F39383 /* PizzaHalfSelectorLayout.swift */,
+				133251162263639800F39383 /* PizzaHalfSelectorLayout+Scale.swift */,
+				133251172263639800F39383 /* PizzaHalfSelectorLayout+Headers.swift */,
+				133251192263639800F39383 /* PizzaHalfSelectorLayout+Alignment.swift */,
+				1332511A2263639800F39383 /* PizzaHalfSelectorLayout+ContentOffset.swift */,
+			);
+			path = Layout;
+			sourceTree = "<group>";
+		};
+		13325126226365DA00F39383 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				1332512A226365DA00F39383 /* PizzaHalfCell.xib */,
+				13325127226365DA00F39383 /* PizzaHalfCell.swift */,
+				13325129226365DA00F39383 /* PizzaHalfTitleHeader.xib */,
+				13325128226365DA00F39383 /* PizzaHalfTitleHeader.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		133251352263690800F39383 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				1332512F226366BC00F39383 /* UIScrollView+CenterOffset.swift */,
+				133251332263690300F39383 /* UICollectionView+Runtime.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		1332513822636C4C00F39383 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				133251242263644900F39383 /* PizzaHalfViewModel.swift */,
+				1332513B2263CA2B00F39383 /* PizzaHalfOrientation.swift */,
+				1332513622636C2B00F39383 /* TableLayoutCache.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		1332513922636C5200F39383 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				13325113226362AA00F39383 /* PizzaHalfSelectorViewController.swift */,
+				13325122226363AF00F39383 /* PizzaHalfCollectionController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		133250FD2263617E00F39383 /* Pizza Halves */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 133251102263617F00F39383 /* Build configuration list for PBXNativeTarget "Pizza Halves" */;
+			buildPhases = (
+				133250FA2263617E00F39383 /* Sources */,
+				133250FB2263617E00F39383 /* Frameworks */,
+				133250FC2263617E00F39383 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pizza Halves";
+			productName = "Pizza Halves";
+			productReference = 133250FE2263617E00F39383 /* Pizza Halves.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		133250F62263617E00F39383 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = DodoPizza;
+				TargetAttributes = {
+					133250FD2263617E00F39383 = {
+						CreatedOnToolsVersion = 10.2;
+					};
+				};
+			};
+			buildConfigurationList = 133250F92263617E00F39383 /* Build configuration list for PBXProject "Pizza Halves" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 133250F52263617E00F39383;
+			productRefGroup = 133250FF2263617E00F39383 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				133250FD2263617E00F39383 /* Pizza Halves */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		133250FC2263617E00F39383 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1332510C2263617F00F39383 /* LaunchScreen.storyboard in Resources */,
+				1332512D226365DA00F39383 /* PizzaHalfTitleHeader.xib in Resources */,
+				133251092263617F00F39383 /* Assets.xcassets in Resources */,
+				133251072263617E00F39383 /* Main.storyboard in Resources */,
+				1332512E226365DA00F39383 /* PizzaHalfCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		133250FA2263617E00F39383 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				133251252263644900F39383 /* PizzaHalfViewModel.swift in Sources */,
+				13325130226366BC00F39383 /* UIScrollView+CenterOffset.swift in Sources */,
+				1332511D2263639800F39383 /* PizzaHalfSelectorLayout+Headers.swift in Sources */,
+				1332511F2263639800F39383 /* PizzaHalfSelectorLayout+Alignment.swift in Sources */,
+				1332511E2263639800F39383 /* TableLayout.swift in Sources */,
+				133251212263639800F39383 /* PizzaHalfSelectorLayout.swift in Sources */,
+				1332512C226365DA00F39383 /* PizzaHalfTitleHeader.swift in Sources */,
+				133251202263639800F39383 /* PizzaHalfSelectorLayout+ContentOffset.swift in Sources */,
+				1332512B226365DA00F39383 /* PizzaHalfCell.swift in Sources */,
+				1332511C2263639800F39383 /* PizzaHalfSelectorLayout+Scale.swift in Sources */,
+				1332513C2263CA2B00F39383 /* PizzaHalfOrientation.swift in Sources */,
+				13325123226363AF00F39383 /* PizzaHalfCollectionController.swift in Sources */,
+				133251342263690300F39383 /* UICollectionView+Runtime.swift in Sources */,
+				133251022263617E00F39383 /* AppDelegate.swift in Sources */,
+				1332513722636C2B00F39383 /* TableLayoutCache.swift in Sources */,
+				13325114226362AA00F39383 /* PizzaHalfSelectorViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		133251052263617E00F39383 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				133251062263617E00F39383 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1332510A2263617F00F39383 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1332510B2263617F00F39383 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1332510E2263617F00F39383 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1332510F2263617F00F39383 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		133251112263617F00F39383 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "Pizza Halves/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dodoPizza.Pizza-Halves";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		133251122263617F00F39383 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "Pizza Halves/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dodoPizza.Pizza-Halves";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		133250F92263617E00F39383 /* Build configuration list for PBXProject "Pizza Halves" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1332510E2263617F00F39383 /* Debug */,
+				1332510F2263617F00F39383 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		133251102263617F00F39383 /* Build configuration list for PBXNativeTarget "Pizza Halves" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				133251112263617F00F39383 /* Debug */,
+				133251122263617F00F39383 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 133250F62263617E00F39383 /* Project object */;
+}

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionReusableView opaque="NO" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="U6b-Vx-4bR" customClass="PizzaHalfTitleHeader" customModule="Pizza_Halves" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="178" height="50"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalCompressionResistancePriority="752" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AJY-LF-NAL">
+                    <rect key="frame" x="0.0" y="0.0" width="178" height="20.5"/>
+                    <fontDescription key="fontDescription" type="system" weight="medium" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" insetsLayoutMarginsFromSafeArea="NO" text="Price" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IJg-rd-SWZ">
+                    <rect key="frame" x="0.0" y="20.5" width="178" height="16"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                    <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="IJg-rd-SWZ" firstAttribute="trailing" secondItem="AJY-LF-NAL" secondAttribute="trailing" id="5ZE-xh-Cgj"/>
+                <constraint firstAttribute="trailing" secondItem="AJY-LF-NAL" secondAttribute="trailing" id="FDX-0G-yud"/>
+                <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="IJg-rd-SWZ" secondAttribute="bottom" id="lcv-ve-948"/>
+                <constraint firstItem="IJg-rd-SWZ" firstAttribute="leading" secondItem="AJY-LF-NAL" secondAttribute="leading" id="m77-7I-Mle"/>
+                <constraint firstItem="IJg-rd-SWZ" firstAttribute="top" secondItem="AJY-LF-NAL" secondAttribute="bottom" id="sc9-sq-FES"/>
+                <constraint firstItem="AJY-LF-NAL" firstAttribute="top" secondItem="U6b-Vx-4bR" secondAttribute="top" id="wQS-Um-lVv"/>
+                <constraint firstItem="AJY-LF-NAL" firstAttribute="leading" secondItem="U6b-Vx-4bR" secondAttribute="leading" id="yeR-4g-G1b"/>
+            </constraints>
+            <connections>
+                <outlet property="subtitleLabel" destination="IJg-rd-SWZ" id="Aih-ya-4yt"/>
+                <outlet property="titleLabel" destination="AJY-LF-NAL" id="Etk-zu-kIn"/>
+            </connections>
+            <point key="canvasLocation" x="100.8" y="-22.488755622188908"/>
+        </collectionReusableView>
+    </objects>
+</document>
